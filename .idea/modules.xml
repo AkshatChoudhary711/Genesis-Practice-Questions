@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Genesis Practice/Genesis Practice.iml" filepath="$PROJECT_DIR$/Genesis Practice/Genesis Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Genesis Practice/String Practice/String Practice.iml" filepath="$PROJECT_DIR$/Genesis Practice/String Practice/String Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/forDemo.iml" filepath="$PROJECT_DIR$/forDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patterns/patterns.iml" filepath="$PROJECT_DIR$/patterns/patterns.iml" />
     </modules>
   </component>
 </project>
