@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class lcmOfnumbers {
+public class HcfOfNumbers {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter number A: ");
@@ -9,9 +9,15 @@ public class lcmOfnumbers {
 		int b = sc.nextInt();
 		sc.close();
 
-		int lcm = (a*b)/HcfOfNumbers.gcd(a,b);
-		System.out.println("LCM: "+lcm);
+		System.out.println("HCF : "+gcd(a,b));
 	}
 
+	public static int gcd(int a, int b){
+		//base case
+		if (a == 0) return b;
+		if(b == 0) return a;
+		if(a>b) return gcd(a%b,b);
+		return gcd(a,b%a);
+	}
 
 }
